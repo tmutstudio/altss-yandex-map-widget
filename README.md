@@ -6,6 +6,9 @@ This plugin is an extension of the Alternative Site Settings plugin for adding a
 
 ## Changelog
 
+### 1.1.1
+* rename Requires Plugins.
+
 ### 1.1.0
 * Initial release.
 
