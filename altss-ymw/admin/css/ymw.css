@@ -1,0 +1,73 @@
+.ymw-link-block {
+    display: inline-block;
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+}
+.ymw-link-button {
+    position: relative;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0;
+    vertical-align: middle;
+    text-align: left;
+    white-space: nowrap;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background: 0 0;
+    font: inherit;
+    color: inherit;
+    text-decoration: inherit;
+    box-sizing: content-box;
+    background-color: #fff;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2);
+    transition: box-shadow .1s ease-out,background-color .1s ease-out;
+    border-radius: 8px;
+    height: 32px;
+}
+.ymw-link-button-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+    font-size: 0;
+    height: 24px;
+    width: 24px;
+    padding: 4px;
+    pointer-events: none;
+    transition: color .1s ease-out;
+}
+.ymw-link-button-icon-inline-image {
+    font-size: 0px;
+    line-height: 0;
+    color: #f43;
+}
+.ymw-link-button-text {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    height: 100%;
+    padding: 0;
+    padding-right: 12px;
+    font-size: 14px;
+    line-height: 32px;
+    font-weight: 500;
+    color: #4d4d4d;
+}
+
+
+@media(hover: hover) and (pointer: fine) {
+    .ymw-link-button:hover .ymw-link-button-text  {
+        color: #000;
+    }
+    .ymw-link-button:hover {
+        box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.4);
+    }
+
+}
