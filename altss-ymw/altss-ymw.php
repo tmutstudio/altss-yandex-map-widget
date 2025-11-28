@@ -1,10 +1,10 @@
 <?php
 /**
- * Plugin Name: ASS Yandex Map Widget
+ * Plugin Name: ALTSS Yandex Map Widget
  * Requires Plugins: alternative-site-settings
- * Plugin URI:  https://github.com/tmutstudio/alternative-site-settings
+ * Plugin URI:  https://github.com/tmutstudio/altss-yandex-map-widget
  * Description: Plugin for adding a Yandex Maps widget to your website. The plugin is an extension of the Alternative Site Settings plugin.
- * Version:     1.1.1
+ * Version:     1.1.2
  * Author:      tmutarakan-dev
  * Author URI:  https://github.com/tmutstudio
  * License:     GPLv2 or later
